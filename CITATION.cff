@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: "FantasticLogo: Predator-Prey Dynamics on Planet Magy with NetLogo"
+message: >-
+  If you use this software, please cite it using the metadata from this file.
+type: software
+authors:
+  - given-names: Daniel
+    family-names: Vartanian
+    email: danvartan@gmail.com
+    affiliation: University of São Paulo
+    orcid: 'https://orcid.org/0000-0001-7782-759X'
+abstract: >-
+  {FantasticLogo} is a [NetLogo](https://www.netlogo.org) model for simulating
+  the complex predator-prey dynamics of bleurghs and oopalamcas, two species
+  native to planet Magy's northern hemisphere. It provides a platform for
+  xenobiology research, allowing users to explore how alien species interact,
+  compete, and adapt within an unfamiliar ecosystem. Beyond research, the model
+  also demonstrates integration with the {LogoClim} NetLogo model, enabling
+  simulations that link species dynamics with planetary climate conditions.
+keywords:
+  - Agent-Based Modeling
+  - Complex Systems
+  - Complexity Science
+  - Xenobiology
+  - Alien Species
+  - Environmental Sciences
+  - Environmental Simulation
+  - Historical Climate Data
+  - LevelSpace
+  - Models
+  - NetLogo
+  - Simulations
+  - WorldClim
+identifiers:
+  - type: doi
+    value: 10.17605/OSF.IO/
+    description: OSF Research Compendium
+repository-code: 'https://github.com/danielvartan/fantasticlogo'
+repository: 'https://doi.org/10.17605/OSF.IO/'
+repository-artifact: 'https://doi.org/10.17605/OSF.IO/'
+license: GPLv3
