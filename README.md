@@ -1,18 +1,14 @@
 # FantasticLogo
 
 <!-- badges: start -->
-[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![Project Status: Inactive - The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
 [![License: GPLv3](https://img.shields.io/badge/license-GPLv3-bd0000.svg)](https://www.gnu.org/licenses/gpl-3.0)
-<!-- [![](https://img.shields.io/badge/CoMSES%20Network-2.0.0-1284C5.svg)](https://www.comses.net/) -->
-<!-- [![](https://img.shields.io/badge/OSF%20DOI-10.17605/OSF.IO/AAAAA-1284C5.svg)](https://doi.org/) -->
-<!-- [![FAIR checklist
-badge](https://img.shields.io/badge/fairsoftwarechecklist.net--00a7d9)](https://fairsoftwarechecklist.net/v0.2?f=31&a=30112&i=32301&r=123) -->
-<!-- [![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F-green)](https://fair-software.eu) -->
+[![Contributor Covenant 3.0 Code of Conduct Badge](https://img.shields.io/badge/Contributor%20Covenant-3.0-4baaaa.svg)](https://www.contributor-covenant.org/version/3/0/code_of_conduct/)
 <!-- badges: end -->
 
 ## Overview
 
-`FantasticLogo` is a [NetLogo](https://www.netlogo.org) model for simulating the complex predator-prey dynamics of bleurghs and oopalamcas, two species native to planet Magy's northern hemisphere. It provides a platform for xenobiology research, allowing users to explore how alien species interact, compete, and adapt within an unfamiliar ecosystem. Beyond research, the model also demonstrates integration with the [`LogoClim`](https://github.com/sustentarea/logoclim) NetLogo model, enabling simulations that link species dynamics with planetary climate conditions.
+`FantasticLogo` is a [NetLogo](https://www.netlogo.org) model for simulating the complex [predator-prey dynamics](https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations) of bleurghs and oopalamcas, two species native to planet Magy's northern hemisphere. It provides a platform for xenobiology research, allowing users to explore how alien species interact, compete, and adapt within an unfamiliar ecosystem.
 
 > If you find this project useful, please consider giving it a star! [![GitHub repo stars](https://img.shields.io/github/stars/danielvartan/fantasticlogo)](https://github.com/danielvartan/fantasticlogo/)
 
@@ -20,64 +16,94 @@ badge](https://img.shields.io/badge/fairsoftwarechecklist.net--00a7d9)](https://
 
 ## How It Works
 
-`FantasticLogo` operates on a grid of patches, where each patch represents the soil were bleurghs grow and where oopalamcas roam. Each patch corresponds to a specific geographical area and stores historical data values for precipitation and minimum and maximum temperature.
+The model operates on a grid of patches, each representing a patch of soil where bleurghs grow and oopalamcas roam.
 
-A oopalamca is a small, purple, creature known for its voracious appetite and distinctive croaking sound. Bleurghs are large, carnivorous plants that can move slowly and capture prey with their funnel-shaped mouths. In the model, oopalamcas represent the prey species, while bleurghs are the predators.
+Oopalamcas are small, purple creatures with voracious appetites and a distinctive croak. Bleurghs are large, carnivorous plants that move slowly and capture prey with their funnel-shaped mouths. In the model, oopalamcas are the prey and bleurghs are the predators.
 
-During the simulation, bleurghs grown on the patches depending on current climate conditions. After they hit a certain age, they can capture and prey roaming oopalamcas, controlling their populations. The behavior and interactions of these species are influenced by the climate data associated with each patch. The results can be visualized on a chart that tracks the populations of both species over time.
+As the simulation runs, bleurghs grow on patches and, upon reaching maturity, can reproduce by dispersing seeds to random locations. Bleurghs prey on oopalamcas, regulating their population.
 
-## Jokes Aside...
-
-<a href="https://www.imdb.com/title/tt0070544/"><img src="images/la-planete-sauvage-cover-reduced.png" align="right" width="200" /></a> `FantasticLogo` takes inspiration from the 1973 animated film [La Planète Sauvage](https://www.imdb.com/title/tt0070544/) by [René Laloux](https://www.imdb.com/name/nm0482537). Set on a strange, hypnotic world, it tells of the Draags—towering blue beings who treat humans, known as Oms, as little more than pets.
-
-The model’s dynamics are grounded in the classic [Lotka-Volterra equations](https://danielvartan.github.io/lotka-volterra/), originally formulated by Alfred J. Lotka ([1925](http://archive.org/details/elementsofphysic017171mbp)) and Vito Volterra ([1926](https://www.nature.com/articles/118558a0)), to describe predator–prey interactions. The code builds on Wilensky’s ([1997](http://ccl.northwestern.edu/netlogo/models/WolfSheepPredation)) Wolf Sheep Predation model.
-
-The model was created to serve as an example of integration of climate data from [WorldClim 2.1](https://worldclim.org/) using the [`LogoClim`](https://github.com/sustentarea/logoclim) NetLogo model. The climate data influences the behavior and interactions of the species, adding a layer of complexity to the simulation.
-
-Climate data is based on historical climate data (1951-2024) from WorldClim 2.1 ([Fick & Hijmans, 2017](https://doi.org/10.1002/joc.5086)), related to a box selection of the Amazon region. The data can be reproduced using the Quarto notebooks located in the `qmd` folder of the repository, which are adaptations from the Quarto notebooks provided by the [`LogoClim`](https://github.com/sustentarea/logoclim) model.
+<table align="center">
+  <tr align="center" valign="middle">
+    <td>
+      <p><strong>Oopalamca</strong></p>
+    </td>
+    <td>
+      <p><strong>Infant and Adult Bleurgh</strong></p>
+    </td>
+    <td>
+      <p><strong>Plasticoco</strong></p>
+    </td>
+  </tr>
+  <tr align="center" valign="middle">
+    <td>
+      <img src="images/oopalamca.svg" width="150" />
+    </td>
+    <td>
+      <img src="images/infant-bleurgh.svg" width="150" /> &nbsp;→&nbsp;
+      <img src="images/bleurgh.svg" width="150" />
+    </td>
+    <td>
+      <img src="images/plasticoco.svg" width="150" />
+    </td>
+  </tr>
+</table>
 
 ## How to Use It
 
 ### Setup
 
-To get started, ensure you have [NetLogo](https://www.netlogo.org) installed. This model was developed using NetLogo 7.0.0, so it is recommended to use this version or later.
+To get started, ensure you have [NetLogo](https://www.netlogo.org) installed. This model was developed using NetLogo 7.0.3, so it is recommended to use this version or later.
 
-The model relies on the LevelSpace ([`ls`](https://ccl.northwestern.edu/netlogo/docs/ls.html)) NetLogo extension, that is automatically installed when the model is run for the first time.
-
-#### Downloading the Model
+### Downloading the Model
 
 You can download the latest release of the model from its [GitHub
 Releases page](https://github.com/danielvartan/fantasticlogo/releases/latest).
 For the development version, you can clone or download its [GitHub
 repository](https://github.com/danielvartan/fantasticlogo/) directly.
 
-To run the model, make sure to download all files, no only the `nlogox`
-folder.
-
-#### Running the Model
+### Running the Model
 
 Once everything is set, open the `fantasticlogo.nlogox` file located in the
 `nlogox` folder to start exploring!
 
 Refer to the `Info` tab in the model for additional details.
 
+## Jokes Aside...
+
+<a href="https://www.imdb.com/title/tt0070544/">
+  <img src="images/la-planete-sauvage-cover-reduced.png" align="right" width="200" />
+</a>
+
+`FantasticLogo` takes inspiration from René Laloux's 1973 masterpiece, [La Planète Sauvage](https://www.imdb.com/title/tt0070544/). The design mirrors the film's hypnotic atmosphere, where the towering, blue-skinned Draags dominate a world of alien flora and fauna. In this world, humans, known as Oms, are treated as mere pets.
+
+The model's dynamics are grounded in the classic [Lotka-Volterra equations](https://danielvartan.github.io/lotka-volterra/), originally formulated by Alfred J. Lotka ([1925](http://archive.org/details/elementsofphysic017171mbp)) and Vito Volterra ([1926](https://www.nature.com/articles/118558a0)), to describe predator-prey interactions. The code builds on Wilensky's ([1997](http://ccl.northwestern.edu/netlogo/models/WolfSheepPredation)) Wolf Sheep Predation model.
+
 ## How to Cite
 
-To cite `FantasticLogo` use the following format:
+If you use this model, please cite it to acknowledge the effort invested in its development and maintenance.
 
-Vartanian, D. (2025). *FantasticLogo: Predator–prey dynamics on planet Magy with NetLogo* \[Computer software\]. <https://doi.org/10.17605/OSF.IO/EAPZU>
+To cite `FantasticLogo` please use the following format:
 
-A BibTeX entry for LaTeX users is:
+Vartanian, D. *FantasticLogo: Predator-prey dynamics on planet Magy with NetLogo* [Computer software]. [https://github.com/danielvartan/fantasticlogo](https://github.com/danielvartan/fantasticlogo)
 
-``` latex
-@Misc{vartanian2025,
-  title = {FantasticLogo: Predator–prey dynamics on planet Magy with NetLogo},
-  author = {{Daniel Vartanian}},
-  year = {2025},
-  doi = {10.17605/OSF.IO/EAPZU},
+A BibLaTeX entry for LaTeX users is:
+
+```latex
+@software{vartanian,
+  title = {FantasticLogo: Predator-prey dynamics on planet Magy with NetLogo},
+  author = {Daniel Vartanian},
+  url = {https://github.com/danielvartan/fantasticlogo},
   note = {Computer software}
 }
 ```
+
+## How to Contribute
+
+[![Contributor Covenant 3.0 Code of Conduct Badge](https://img.shields.io/badge/Contributor%20Covenant-3.0-4baaaa.svg)](https://www.contributor-covenant.org/version/3/0/code_of_conduct/)
+
+Contributions are always welcome! Whether you want to report bugs, suggest new features, or help improve the code or documentation, your input makes a difference.
+
+Before opening a new issue, please check the [issues tab](https://github.com/danielvartan/fantasticlogo/issues) to see if your topic has already been reported.
 
 ## License
 
@@ -86,8 +112,8 @@ A BibTeX entry for LaTeX users is:
 ``` text
 Copyright (C) 2025 Daniel Vartanian
 
-FantasticLogo is free software: you can redistribute it and/or modify it under the
-terms of the GNU General Public License as published by the Free Software
+FantasticLogo is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
 Foundation, either version 3 of the License, or (at your option) any later
 version.
 
