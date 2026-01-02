@@ -19,7 +19,7 @@ Click [here](https://danielvartan.github.io/fantasticlogo/) to play with this mo
 
 > If you find this project useful, please consider giving it a star! [![GitHub repo stars](https://img.shields.io/github/stars/danielvartan/fantasticlogo)](https://github.com/danielvartan/fantasticlogo/)
 
-![FantasticLogo Interface](images/interface.png)
+![FantasticLogo Interface](images/interface.gif)
 
 ## How It Works
 
