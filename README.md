@@ -2,6 +2,7 @@
 
 <!-- badges: start -->
 [![Project Status: Inactive - The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
+[![NetLogo Web](https://img.shields.io/badge/NetLogo%20Web--f61501)](https://danielvartan.github.io/fantasticlogo/)
 [![Modeling Commons](https://img.shields.io/badge/Modeling%20Commons-7811-5C85AF)](https://modelingcommons.org/browse/one_model/7811)
 [![License: GPLv3](https://img.shields.io/badge/license-GPLv3-bd0000.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Contributor Covenant 3.0 Code of Conduct Badge](https://img.shields.io/badge/Contributor%20Covenant-3.0-4baaaa.svg)](https://www.contributor-covenant.org/version/3/0/code_of_conduct/)
@@ -10,6 +11,8 @@
 ## Overview
 
 `FantasticLogo` is a [NetLogo](https://www.netlogo.org) model for simulating the complex [predator-prey dynamics](https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations) of bleurghs and oopalamcas, two species native to planet Magy's northern hemisphere. It provides a platform for xenobiology research, allowing users to explore how alien species interact, compete, and adapt within an unfamiliar ecosystem.
+
+Click [here](https://danielvartan.github.io/fantasticlogo/) to play with this model online on [NetLogo Web](https://www.netlogoweb.org)!
 
 > If you find this project useful, please consider giving it a star! [![GitHub repo stars](https://img.shields.io/github/stars/danielvartan/fantasticlogo)](https://github.com/danielvartan/fantasticlogo/)
 
@@ -75,7 +78,7 @@ Refer to the `Info` tab in the model for additional details.
   <img src="images/la-planete-sauvage-cover-reduced.png" align="right" width="200" />
 </a>
 
-`FantasticLogo` takes inspiration from René Laloux's 1973 masterpiece, [La Planète Sauvage](https://www.imdb.com/title/tt0070544/). The design mirrors the film's hypnotic atmosphere, where the towering, blue-skinned Draags dominate a world of alien flora and fauna. In this world, humans, known as Oms, are treated as mere pets.
+`FantasticLogo` takes inspiration from René Laloux's 1973 masterpiece, [La Planète Sauvage](https://www.imdb.com/title/tt0070544/). The model's visual and conceptual design mirrors the film's hypnotic atmosphere, where the towering, blue-skinned Draags dominate a world teeming with surreal, alien flora and fauna. In this world, humans (known as Oms) are treated as mere pets, struggling to survive in an environment that is both beautiful and perilous.
 
 The model's dynamics are grounded in the classic [Lotka-Volterra equations](https://danielvartan.github.io/lotka-volterra/), originally formulated by Alfred J. Lotka ([1925](http://archive.org/details/elementsofphysic017171mbp)) and Vito Volterra ([1926](https://www.nature.com/articles/118558a0)), to describe predator-prey interactions. The code builds on Wilensky's ([1997](http://ccl.northwestern.edu/netlogo/models/WolfSheepPredation)) Wolf Sheep Predation model.
 

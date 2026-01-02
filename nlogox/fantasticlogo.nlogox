@@ -182,6 +182,8 @@ end
 
 `FantasticLogo` is a NetLogo model for simulating the complex [predator-prey dynamics](https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations) of bleurghs and oopalamcas, two species native to planet Magy's northern hemisphere. It provides a platform for xenobiology research, allowing users to explore how alien species interact, compete, and adapt within an unfamiliar ecosystem.
 
+Click [here](https://danielvartan.github.io/fantasticlogo/) to play with this model online on [NetLogo Web](https://www.netlogoweb.org)!
+
 ## HOW IT WORKS
 
 The model operates on a grid of patches, each representing a patch of soil where bleurghs grow and oopalamcas roam.
@@ -237,7 +239,7 @@ Use the sliders on the left to adjust the initial populations and reproduction r
 
 ## JOKES ASIDE...
 
-`FantasticLogo` takes inspiration from René Laloux's 1973 masterpiece, [La Planète Sauvage](https://www.imdb.com/title/tt0070544/). The design mirrors the film's hypnotic atmosphere, where the towering, blue-skinned Draags dominate a world of alien flora and fauna. In this world, humans, known as Oms, are treated as mere pets.
+`FantasticLogo` takes inspiration from René Laloux's 1973 masterpiece, [La Planète Sauvage](https://www.imdb.com/title/tt0070544/). The model's visual and conceptual design mirrors the film's hypnotic atmosphere, where the towering, blue-skinned Draags dominate a world teeming with surreal, alien flora and fauna. In this world, humans (known as Oms) are treated as mere pets, struggling to survive in an environment that is both beautiful and perilous.
 
 The model's dynamics are grounded in the classic [Lotka-Volterra equations](https://danielvartan.github.io/lotka-volterra/), originally formulated by Alfred J. Lotka ([1925](http://archive.org/details/elementsofphysic017171mbp)) and Vito Volterra ([1926](https://www.nature.com/articles/118558a0)), to describe predator-prey interactions. The code builds on Wilensky's ([1997](http://ccl.northwestern.edu/netlogo/models/WolfSheepPredation)) Wolf Sheep Predation model.
 
