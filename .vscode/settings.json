@@ -36,5 +36,25 @@
     "xcor",
     "ycor",
     "zenodo"
-  ]
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#dcbe5a",
+    "activityBar.background": "#dcbe5a",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#1c836c",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#dcbe5a",
+    "statusBar.background": "#d3ad30",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#ac8c24",
+    "statusBarItem.remoteBackground": "#d3ad30",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#d3ad30",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#d3ad3099",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "d3ad30ff"
 }
