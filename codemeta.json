@@ -52,6 +52,9 @@
   "license": "https://www.gnu.org/licenses/gpl-3.0",
   "codeRepository": "https://github.com/danielvartan/fantasticlogo",
   "issueTracker": "https://github.com/danielvartan/fantasticlogo/issues",
+  "relatedLink": [
+    "https://doi.org/10.5281/zenodo.18122348"
+  ],
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "NetLogo",
@@ -67,5 +70,5 @@
   "developmentStatus": "inactive",
   "readme": "https://github.com/danielvartan/fantasticlogo/blob/main/README.md",
   "releaseNotes": "https://github.com/danielvartan/fantasticlogo/blob/main/NEWS.md",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

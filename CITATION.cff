@@ -29,6 +29,10 @@ keywords:
   - Predator-Prey Dynamics
   - Simulations
   - Xenobiology
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.18122348
+    description: Zenodo Record
 repository-code: 'https://github.com/danielvartan/fantasticlogo'
 license: GPL-3.0-or-later
-version: 1.0.0
+version: 1.0.1

@@ -4,7 +4,10 @@
 [![Project Status: Inactive - The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
 [![NetLogo Web](https://img.shields.io/badge/NetLogo%20Web--f61501)](https://danielvartan.github.io/fantasticlogo/)
 [![Modeling Commons](https://img.shields.io/badge/Modeling%20Commons-7811-5C85AF)](https://modelingcommons.org/browse/one_model/7811)
-[![License: GPLv3](https://img.shields.io/badge/license-GPLv3-bd0000.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![DOI Badge](https://img.shields.io/badge/doi-10.5281/zenodo.18122348-1284C5.svg)](https://doi.org/10.5281/zenodo.18122348)
+[![GPLv3 License Badge](https://img.shields.io/badge/license-GPLv3-bd0000.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![FAIR Checklist Badge](https://img.shields.io/badge/fairsoftwarechecklist.net--00a7d9)](https://fairsoftwarechecklist.net/v0.2?f=31&a=32113&i=02222&r=123)
+[![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F-green.png)](https://fair-software.eu)
 [![Contributor Covenant 3.0 Code of Conduct Badge](https://img.shields.io/badge/Contributor%20Covenant-3.0-4baaaa.svg)](https://www.contributor-covenant.org/version/3/0/code_of_conduct/)
 <!-- badges: end -->
 
@@ -84,11 +87,13 @@ The model's dynamics are grounded in the classic [Lotka-Volterra equations](http
 
 ## How to Cite
 
+[![DOI Badge](https://img.shields.io/badge/doi-10.5281/zenodo.18122348-1284C5.svg)](https://doi.org/10.5281/zenodo.18122348)
+
 If you use this model, please cite it to acknowledge the effort invested in its development and maintenance.
 
 To cite `FantasticLogo` please use the following format:
 
-Vartanian, D. *FantasticLogo: Predator-prey dynamics on planet Magy with NetLogo* [Computer software]. [https://github.com/danielvartan/fantasticlogo](https://github.com/danielvartan/fantasticlogo)
+Vartanian, D. *FantasticLogo: Predator-prey dynamics on planet Magy with NetLogo* [Computer software]. <https://doi.org/10.5281/zenodo.18122348>
 
 A BibLaTeX entry for LaTeX users is:
 
@@ -96,7 +101,7 @@ A BibLaTeX entry for LaTeX users is:
 @software{vartanian,
   title = {FantasticLogo: Predator-prey dynamics on planet Magy with NetLogo},
   author = {Daniel Vartanian},
-  url = {https://github.com/danielvartan/fantasticlogo},
+  doi = {https://doi.org/10.5281/zenodo.18122348},
   note = {Computer software}
 }
 ```
@@ -111,7 +116,7 @@ Before opening a new issue, please check the [issues tab](https://github.com/dan
 
 ## License
 
-[![](https://img.shields.io/badge/license-GPLv3-bd0000.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![GPLv3 License Badge](https://img.shields.io/badge/license-GPLv3-bd0000.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ``` text
 Copyright (C) 2025 Daniel Vartanian
