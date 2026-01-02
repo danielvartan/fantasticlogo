@@ -2,7 +2,7 @@
 
 # v1.0.2 (2026-01-01)
 
-- Updated DOI information.
+- Updated [DOI](https://www.doi.org/) information.
 
 # v1.0.1 (2026-01-01)
 
