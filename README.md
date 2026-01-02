@@ -93,13 +93,13 @@ If you use this model, please cite it to acknowledge the effort invested in its 
 
 To cite `FantasticLogo` please use the following format:
 
-Vartanian, D. *FantasticLogo: Predator-prey dynamics on planet Magy with NetLogo* [Computer software]. <https://doi.org/10.5281/zenodo.18122348>
+Vartanian, D. *FantasticLogo: Predator-prey dynamics on planet* [Computer software]. <https://doi.org/10.5281/zenodo.18122348>
 
 A BibLaTeX entry for LaTeX users is:
 
 ```latex
 @software{vartanian,
-  title = {FantasticLogo: Predator-prey dynamics on planet Magy with NetLogo},
+  title = {FantasticLogo: Predator-prey dynamics on planet Magy},
   author = {Daniel Vartanian},
   doi = {https://doi.org/10.5281/zenodo.18122348},
   note = {Computer software}
