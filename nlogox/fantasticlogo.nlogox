@@ -296,11 +296,11 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 
 ## REFERENCES
 
-Lotka, A. J. (1925). *Elements of physical biology*. Williams & Wilkins Company. http://archive.org/details/elementsofphysic017171mbp
+Lotka, A. J. (1925). *Elements of physical biology*. Williams & Wilkins Company. [http://archive.org/details/elementsofphysic017171mbp](http://archive.org/details/elementsofphysic017171mbp)
 
-Volterra, V. (1926). Fluctuations in the abundance of a species considered mathematically. *Nature*, *118*(2972), 558-560. https://doi.org/10.1038/118558a0\
+Volterra, V. (1926). Fluctuations in the abundance of a species considered mathematically. *Nature*, *118*(2972), 558-560. [https://doi.org/10.1038/118558a0](https://doi.org/10.1038/118558a0)
 
-Wilensky, U. (1997). *NetLogo wolf sheep predation model* [Computer software]. Center for Connected Learning and Computer Based Modeling at Northwestern University. http://ccl.northwestern.edu/netlogo/models/WolfSheepPredation
+Wilensky, U. (1997). *NetLogo wolf sheep predation model* [Computer software]. Center for Connected Learning and Computer Based Modeling at Northwestern University. [http://ccl.northwestern.edu/netlogo/models/WolfSheepPredation](http://ccl.northwestern.edu/netlogo/models/WolfSheepPredation)
 ]]></info>
   <turtleShapes>
     <shape name="default" rotatable="true" editableColorIndex="0">
