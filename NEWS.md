@@ -2,9 +2,9 @@
 
 # v1.0.1 (2026-01-01)
 
-- Added [DOI](https://www.doi.org/) and [FAIR](https://www.go-fair.org/) software information to the documentation.
-- Added interface [animation](images/interface.gif) to showcase model dynamics.
-- Updated documentation for clarity and completeness.
+- Added [DOI](https://www.doi.org/) and [FAIR](https://www.go-fair.org/) software details to the documentation.
+- Included an interface [animation](images/interface.gif) to demonstrate model dynamics.
+- Enhanced documentation for clarity and completeness.
 
 # v1.0.0 (2026-01-01)
 
