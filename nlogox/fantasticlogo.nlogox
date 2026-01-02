@@ -2,7 +2,7 @@
 <model version="NetLogo 7.0.3" snapToGrid="true">
   <code><![CDATA[; FantasticLogo: Predator-Prey Dynamics on Planet Magy
 ;
-; Version: 1.0.1
+; Version: 1.0.2
 ; Author: Daniel Vartanian
 ; Maintainer: Daniel Vartanian <https://github.com/danielvartan>
 ; License: GPLv3 <https://www.gnu.org/licenses/gpl-3.0>
