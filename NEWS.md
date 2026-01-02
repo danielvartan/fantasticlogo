@@ -1,6 +1,6 @@
 # v1.0.0.9000 (development version)
 
-# v1.0.0
+# v1.0.0 (2026-01-01)
 
 First release! 🎉
 
