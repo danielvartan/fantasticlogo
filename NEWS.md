@@ -1,5 +1,9 @@
 # v1.0.0.9000 (development version)
 
+# v1.0.2 (2026-01-01)
+
+- Updated DOI information.
+
 # v1.0.1 (2026-01-01)
 
 - Added [DOI](https://www.doi.org/) and [FAIR](https://www.go-fair.org/) software details to the documentation.
