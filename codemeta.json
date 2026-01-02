@@ -3,14 +3,14 @@
   "@type": "SoftwareSourceCode",
   "identifier": "FantasticLogo",
   "dateCreated": "2025-09-02",
-  "applicationCategory": "Agent-based modeling",
+  "applicationCategory": "Agent-based model",
   "name": "FantasticLogo: Predator-prey dynamics on planet Magy",
   "author": [
     {
       "@type": "Person",
       "familyName": "Vartanian",
       "givenName": "Daniel",
-      "email": "hi@danielvartan.com",
+      "email": "danielvartan@proton.me",
       "affiliation": {
         "@type": "Organization",
         "name": "University of São Paulo",
@@ -23,14 +23,14 @@
     "@type": "Person",
     "familyName": "Vartanian",
     "givenName": "Daniel",
-    "email": "hi@danielvartan.com",
+    "email": "danielvartan@proton.me",
     "@id": "https://orcid.org/0000-0001-7782-759X"
   },
   "maintainer": {
     "@type": "Person",
     "familyName": "Vartanian",
     "givenName": "Daniel",
-    "email": "hi@danielvartan.com",
+    "email": "danielvartan@proton.me",
     "@id": "https://orcid.org/0000-0001-7782-759X"
   },
   "description": "FantasticLogo is a NetLogo model for simulating the complex predator-prey dynamics of bleurghs and oopalamcas, two species native to planet Magy's northern hemisphere. It provides a platform for xenobiology research, allowing users to explore how alien species interact, compete, and adapt within an unfamiliar ecosystem.",
