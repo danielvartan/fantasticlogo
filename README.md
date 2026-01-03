@@ -78,7 +78,7 @@ Refer to the `Info` tab in the model for additional details.
 ## Jokes Aside...
 
 <a href="https://www.imdb.com/title/tt0070544/">
-  <img src="images/la-planete-sauvage-cover-reduced.png" align="right" width="200" />
+  <img src="images/la-planete-sauvage-poster-reduced.png" align="right" width="200" />
 </a>
 
 `FantasticLogo` takes inspiration from René Laloux's 1973 masterpiece, [La Planète Sauvage](https://www.imdb.com/title/tt0070544/). The model's visual and conceptual design mirrors the film's hypnotic atmosphere, where the towering, blue-skinned Draags dominate a world teeming with surreal, alien flora and fauna. In this world, humans (known as Oms) are treated as mere pets, struggling to survive in an environment that is both beautiful and perilous.
