@@ -1,5 +1,7 @@
 # v1.0.0.9000 (development version)
 
+- Fixed the *How to Contribute* section in the Info tab.
+
 # v1.0.2 (2026-01-01)
 
 - Updated [DOI](https://www.doi.org/) information.
