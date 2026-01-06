@@ -261,7 +261,7 @@ Vartanian, D. *FantasticLogo: Predator-prey dynamics on planet Magy* [Computer s
 
 A BibLaTeX entry for LaTeX users is:
 
-```latex
+```
 @software{vartanian,
   title = {FantasticLogo: Predator-prey dynamics on planet Magy},
   author = {Daniel Vartanian},
